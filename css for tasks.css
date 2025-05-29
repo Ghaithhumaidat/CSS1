@@ -1,0 +1,112 @@
+
+.First{
+
+color: rgb(255, 162, 0);
+
+}
+
+.Second{
+
+    color: aliceblue;
+    background-image: url(./stock-photo-beautiful-abstract-grungy-blue-stucco-wall-background-in-cold-mood-pantone-of-the-year-color-1723930225.jpg);
+
+}
+
+#h{
+
+    color: rgb(255, 162, 0);
+    text-align: left;
+
+}
+
+#hh{
+
+    font-weight: bold;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+#pp{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    text-align: right;
+        
+}
+
+.att{
+
+    color: rgb(0, 0, 197);
+    font-weight: bold;
+
+}
+
+.value{
+
+    color: rgb(0, 180, 0);
+    font-weight: bold;
+
+}
+
+.a{
+    background-color: antiquewhite;
+            
+}
+
+.aa{
+    
+border: solid;
+width: 1000px;
+height: 250px;
+margin: 10px; 
+
+
+}
+
+
+.aaa{
+
+border: dashed;
+width: 1000px;
+height: 250px;
+margin: 10px;
+        
+}
+
+.b{
+
+border:dashed;
+border-color: red;
+width: 900px;
+height: 150px;
+margin: 10px; ;
+        
+}
+
+.aaaa{
+
+border: black solid;
+color: rgb(146, 65, 222);
+width: 1000px;
+height: 250px;
+margin: 10px;
+        
+}
+
+#i{
+background-color: orange;
+        
+}
+
+#q{
+background-color: yellow;
+    
+}
