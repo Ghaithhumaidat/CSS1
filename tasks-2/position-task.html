@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Css-for-tasks2.css">
+  <style>
+
+    .border1{
+
+      border: dotted;
+      width: 750px;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+
+    }
+
+    .border2{
+
+      border: dotted;
+      width: 750px;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+
+    }
+
+    .border3{
+
+      border: dotted;
+      width: 550px;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      gap: 10px;
+
+    }
+
+    .one , .three , .four{
+
+      background-color: red;
+      width:25% ;
+      font-size: 20px;
+
+    }
+
+    .two1{
+
+      background-color: green;
+      width: 25%;
+      position: static;
+      font-size: 20px;
+
+    }
+
+    .two2{
+
+      background-color: green;
+      width: 25%;
+      position: relative;
+      font-size: 20px;
+      top: 50px;
+      left: 50px;
+
+    }
+
+    .one3 , .three3 , .four3{
+
+      background-color: red;
+      width:calc(100% / 3) ;
+      font-size: 20px;
+      
+
+    }
+
+    .two3{
+
+      background-color: green;
+      width:176.66px ;
+      height: 150px;
+      position: absolute;
+      font-size: 20px;
+      top: 15px;
+      left: 15px;
+
+    }
+
+  </style>
+  
+</head>
+<body>
+
+  <div class="static">
+
+    <p> position: static </p>
+
+    <div class="border1">
+
+      <div class="one">One</div>
+      <div class="two1">Two</div>
+      <div class="three">Three</div>
+      <div class="four">Four</div>
+
+    </div>
+
+
+  </div>
+
+  <br>
+  <br>
+
+  <div class="relative">
+
+    <p> position: relative </p>
+
+    <div class="border2">
+
+      <div class="one">One</div>
+      <div class="two2">Two</div>
+      <div class="three">Three</div>
+      <div class="four">Four</div>
+
+    </div>
+
+
+  </div>
+
+  <br>
+  <br>
+
+  <div class="absolute">
+
+    <p> position: absolute </p>
+
+    <div class="border3">
+
+      <div class="one3">One</div>
+      <div class="two3">Two</div>
+      <div class="three3">Three</div>
+      <div class="four3">Four</div>
+
+    </div>
+
+
+  </div>
+  
+</body>
+</html>
