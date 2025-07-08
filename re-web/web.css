@@ -106,3 +106,56 @@
 
 
         }
+
+        @media (max-width:426px) {
+
+            .h1{
+
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: absolute;
+                top: 1%;
+                right: 0%;
+                left: 0%;
+                color: white;
+                font-family: sans-serif;
+                padding: 20px;
+
+            }
+
+            .cards{
+
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(51, 50, 50);
+                height: auto;
+                gap: 28px;
+
+            }
+            
+            .c1 , .c2 , .c3 {
+
+                background-color: white;
+                width: 80%;
+                height: 95%;
+
+            }
+
+            .foot{
+
+                display: grid;
+                grid-template-areas: "contact contact"
+                                     " about about"
+                                     " last last ";
+                grid-template-columns: 2fr ;
+                text-align: center;
+                color: aliceblue;
+
+            }
+            
+        }
